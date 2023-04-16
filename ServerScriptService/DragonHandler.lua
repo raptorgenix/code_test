@@ -44,7 +44,6 @@ local function MoveDragon(dragon, info, target)
 	local tween = TweenService:Create(cframe, DragonTween, {Value = newTargetCframe}) 
 	tween:Play()
 
-	
 	tween.Completed:Connect(function()
 		dragon:Destroy()
 		cframe:Destroy()
