@@ -1,4 +1,4 @@
-# voldex_game
+# code test
 
 **Bug 1:**
 Pads had no UI for the object/price information. I used the UI given for the Portal and replicated it across each of the pads, with updated elements to reflect the price/item you were purchasing.
@@ -49,7 +49,7 @@ For the UI handling, I probably could have easily put the code for each of the t
 
 I also recognize that I did some things that might be frowned upon for performance considerations, like using textures for all the parts, and having lots of humanoids in the place, and not using meshes that have LoD for different distances, and not using content streaming. If this were a performance-intensive game, I would have used different implementations, but these made the most sense given that it's a single player map without a ton going on. I didn't really peak above 500mb for memory, so it should run okay either way. I like the detail and the ability to look around at the floating islands and dragons, so it seemed like a good use of computational resources that should still work on mobile. A couple of the UI buttons look weird at really low resolutions, but the Money display is scaled for any device; I figured it wouldn't be especially important if the buttons are all scaled to be aesthetically pleasing on mobile.
 
-I could write the code with different convention if given guidelines, I was only working with my existing understanding of proper code convention/lua styling. The comments were to help readers understand where I made modifications, and could also be stylized differently in a professional setting.
+I could write the code with different convention if given guidelines, I was working with my existing understanding of proper code convention/lua styling. The comments were to help readers understand where I made modifications, and could also be stylized differently in a professional setting.
 
 Thanks for reading, and happy dragon watching!
 
